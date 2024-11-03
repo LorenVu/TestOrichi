@@ -1,0 +1,14 @@
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfoInputs.cache
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfo.cs
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.csproj.CoreCompileInputs.cache
+D:\C++\TestOrichi\StudentManager\bin\Debug\net8.0\StudentManager.exe
+D:\C++\TestOrichi\StudentManager\bin\Debug\net8.0\StudentManager.deps.json
+D:\C++\TestOrichi\StudentManager\bin\Debug\net8.0\StudentManager.runtimeconfig.json
+D:\C++\TestOrichi\StudentManager\bin\Debug\net8.0\StudentManager.dll
+D:\C++\TestOrichi\StudentManager\bin\Debug\net8.0\StudentManager.pdb
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.dll
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\refint\StudentManager.dll
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.pdb
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\StudentManager.genruntimeconfig.cache
+D:\C++\TestOrichi\StudentManager\obj\Debug\net8.0\ref\StudentManager.dll

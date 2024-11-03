@@ -1,0 +1,13 @@
+1. Dependency injection:
+- là một kỹ thuật để giảm thiểu sự phụ thuộc giữa các lớp, tức là chúng ta không bị phụ thuộc vào các lớp cụ thể mà chỉ phụ thuộc vào các interface, khi chương trình chạy thì ta có thể thay đổi các object mà không làm thay đổi logic của chương trình, giúp phát triển các module mới, unit test dễ dàng.
+- Dependency injection giúp chúng ta đạt được IoC (inversion of control)
+
+.NET Core có tích hợp sẵn dependency injection và nó có 3 cách sử dụng chính như sau:
+- Singleton: Một instance sẽ được khởi tạo duy nhất suốt vòng đời của ứng dụng.
+- Scoped: Một instance được khởi tạo với mỗi một request. 
+- Transient: Một instance được khởi tạo mỗi khi nó được gọi.
+
+Còn .NET Framework không hỗ trợ trực tiếp Dependency injection mà phải dung các thư viện của bên thứ 3 như:
+ - Autofac
+ - Ninject
+
