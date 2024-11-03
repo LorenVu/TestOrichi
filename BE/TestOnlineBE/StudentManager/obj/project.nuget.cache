@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oo7OlfdXf1Lh5kK1P1DhVaSQMcfqi+nWkaiP8ne4IjXzToEU/lb+1+y0rdSwE2Gt703AgX165SC3OznolKb04Q==",
+  "dgSpecHash": "ypYLeAQFr3kyi/7NgeozPGnWxc6CAyIT3blWaa0u8FmsMW+knBdp4hcbJ6PGtKTciPMLUki7e/NhJ4Dy5MWSZw==",
   "success": true,
-  "projectFilePath": "D:\\C++\\TestOrichi\\StudentManager\\StudentManager.csproj",
+  "projectFilePath": "D:\\TestOrichi\\BE\\TestOnlineBE\\StudentManager\\StudentManager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

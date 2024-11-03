@@ -6,11 +6,11 @@
         {
             Name = name;
             Scores = scores;
-            AverageScore = Scores.Values.Average();
+            AverageScore = Scores.Count != 0 ? Math.Round(Scores.Values.Average(), 1) : 0.0;
         }
 
         public string Name { get; init; }
-        public Dictionary<string, int> Scores { get; set; } = new Dictionary<string, int>();
+        public Dictionary<string, int> Scores { get; set; } = [];
         public double AverageScore { get; private set; }
     }
 }

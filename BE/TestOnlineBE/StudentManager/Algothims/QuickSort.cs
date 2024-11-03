@@ -16,12 +16,12 @@ namespace StudentManager.Algothims
 
         static int Partition(List<Student> students, int left, int right)
         {
-            double pivot = students[right].AverageScore;
+            Student pivot = students[right];
             int i = left - 1;
 
             for (int j = left; j < right; j++)
             {
-                if (students[j].AverageScore > pivot)
+                if (CompareStudents(students[j], pivot) < 0)
                 {
                     i++;
                     Swap(students, i, j);
@@ -29,7 +29,9 @@ namespace StudentManager.Algothims
             }
 
             Swap(students, i + 1, right);
-            return i + 1;
+            i++;
+
+            return i;
         }
 
         static void Swap(List<Student> students, int i, int j)
@@ -37,6 +39,17 @@ namespace StudentManager.Algothims
             Student temp = students[i];
             students[i] = students[j];
             students[j] = temp;
+        }
+
+        static int CompareStudents(Student a, Student b)
+        {
+            int scoreComparison = b.AverageScore.CompareTo(a.AverageScore);
+            if (scoreComparison != 0)
+            {
+                return scoreComparison;
+            }
+
+            return a.Name.CompareTo(b.Name);
         }
     }
 }

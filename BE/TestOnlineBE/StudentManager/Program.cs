@@ -66,7 +66,7 @@ namespace StudentManager
                     { Subjects.Physic, random.Next(0, 10) },
                     { Subjects.Chemistry, random.Next(0, 10) }
                 }),
-                new Student("Van Quoc Khanh", new Dictionary<string, int>
+                new Student("Van Quoc K", new Dictionary<string, int>
                 {
                     { Subjects.Math, random.Next(0, 10) },
                     { Subjects.Physic, random.Next(0, 10) },
@@ -84,6 +84,20 @@ namespace StudentManager
                     { Subjects.Physic, random.Next(0, 10) },
                     { Subjects.Chemistry, random.Next(0, 10) }
                 }),
+
+                new Student("Dao Thuy C", new Dictionary<string, int>
+                {
+                    { Subjects.Math, 5 },
+                    { Subjects.Physic, 5 },
+                    { Subjects.Chemistry, 5 }
+                }),
+
+                new Student("Tran Minh Z", new Dictionary<string, int>
+                {
+                    { Subjects.Math, 5 },
+                    { Subjects.Physic, 5 },
+                    { Subjects.Chemistry, 5 }
+                })
             ];
         }
     }
